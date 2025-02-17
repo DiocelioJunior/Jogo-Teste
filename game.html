@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Bíblico - Companion App</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Adicione no <head> -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!--Icons-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=check_small,group,help,lightbulb,menu_book,person,shield,start,timer,warning" />
+</head>
+
+<body>
+    <div class="container">
+
+
+        <!-- Cadastro de Jogadores -->
+        <div class="playerSetup" id="playerSetup" style="display: none;">
+            <div class="image-player">
+                <img src="./assets/players/player1.png" alt="Player" id="image-player">
+            </div>
+            <div class="form-player">
+                <div class="form">
+                    <input type="text" id="playerName" placeholder="Nome do Jogador">
+                    <select id="playerImageSelect">
+                        <option value="./assets/players/player1.png">Imagem 1</option>
+                        <option value="./assets/players/player2.png">Imagem 2</option>
+                    </select>
+                    <button onclick="addPlayer()">Adicionar Jogador</button>
+                    <button onclick="showGamePanel()">Iniciar Jogo</button> <!-- Novo botão -->
+                </div>
+
+                <ul id="playerList">
+                    <!--
+                        <li>
+                            <img src="${player.image}" alt="${player.name}" class="player-icon">
+                            Jogador ${index + 1}: ${player.name}
+                        </li>
+                    -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Painel de Jogo -->
+        <div class="gamePanel" id="gamePanel" style="display: flex;">
+            <h2>Jogadores</h2>
+            <div id="playersScore"></div>
+
+            <div class="diceContainer" style="display: none;">
+                <div class="scene">
+                    <div class="dice" id="dice">
+                        <div class="face front">
+                            <div class="dot center"></div>
+                        </div> <!-- 1 -->
+                        <div class="face back">
+                            <div class="dot top-left"></div>
+                            <div class="dot bottom-right"></div>
+                        </div> <!-- 2 -->
+                        <div class="face right">
+                            <div class="dot top-left"></div>
+                            <div class="dot center"></div>
+                            <div class="dot bottom-right"></div>
+                        </div> <!-- 3 -->
+                        <div class="face left">
+                            <div class="dot top-left"></div>
+                            <div class="dot top-right"></div>
+                            <div class="dot bottom-left"></div>
+                            <div class="dot bottom-right"></div>
+                        </div> <!-- 4 -->
+                        <div class="face top">
+                            <div class="dot top-left"></div>
+                            <div class="dot top-right"></div>
+                            <div class="dot center"></div>
+                            <div class="dot bottom-left"></div>
+                            <div class="dot bottom-right"></div>
+                        </div> <!-- 5 -->
+                        <div class="face bottom">
+                            <div class="dot top-left"></div>
+                            <div class="dot top-right"></div>
+                            <div class="dot middle-left"></div>
+                            <div class="dot middle-right"></div>
+                            <div class="dot bottom-left"></div>
+                            <div class="dot bottom-right"></div>
+                        </div> <!-- 6 -->
+                    </div>
+                </div>
+                <button onclick="rollDice()">Lançar Dado</button>
+            </div>
+
+
+            <div class="challengeContent">
+                <div class="challenge">
+
+                    <button onclick="drawChallenge('pregação')"><span class="material-symbols-outlined">
+                            group
+                        </span></button>
+                    <button onclick="drawChallenge('cotidiano')"><span class="material-symbols-outlined">
+                            shield
+                        </span></button>
+                    <button onclick="drawChallenge('exemplos')"><span class="material-symbols-outlined">
+                            menu_book
+                        </span></button>
+                    <button onclick="drawPenalty()"><span class="material-symbols-outlined">
+                            warning
+                        </span></button>
+                </div>
+
+                <div id="challengeContent">
+
+                </div>
+            </div>
+
+
+            <div id="timer">
+                <div id="timerDisplay">⏳ Tempo: 0s</div>
+                <div class="btn-challenge">
+                    <button id="resetTimerBtn"><span class="material-symbols-outlined">
+                        timer
+                        </span></button>
+                    <button id="startChallengeBtn"><span class="material-symbols-outlined">
+                        start
+                        </span></button>
+                    <button id="completeChallengeBtn"><span class="material-symbols-outlined">
+                        check_small
+                        </span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

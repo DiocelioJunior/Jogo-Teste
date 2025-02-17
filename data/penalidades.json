@@ -1,0 +1,104 @@
+{
+    "penalidades": [
+      {
+        "scene": "⚠️ Você faltou à reunião de meio de semana",
+        "effect": "Volte 3 casas",
+        "reference": "Hebreus 10:25 (TNM)"
+      },
+      {
+        "scene": "⚠️ Não preparou o discurso da Escola do Ministério",
+        "effect": "Volte 2 casas",
+        "reference": "2 Timóteo 2:15 (TNM)"
+      },
+      {
+        "scene": "⚠️ Usou redes sociais para conteúdos impróprios",
+        "effect": "Volte 4 casas",
+        "reference": "Filipenses 4:8 (TNM)"
+      },
+      {
+        "scene": "⚠️ Chegou atrasado à reunião de serviço",
+        "effect": "Volte 1 casa",
+        "reference": "Eclesiastes 5:1 (TNM)"
+      },
+      {
+        "scene": "⚠️ Não leu a Bíblia esta semana",
+        "effect": "Volte 3 casas",
+        "reference": "Josué 1:8 (TNM)"
+      },
+      {
+        "scene": "⚠️ Discutiu com um irmão na congregação",
+        "effect": "Volte 2 casas",
+        "reference": "Mateus 5:23-24 (TNM)"
+      },
+      {
+        "scene": "⚠️ Não participou do ministério este mês",
+        "effect": "Volte 5 casas",
+        "reference": "Mateus 28:19 (TNM)"
+      },
+      {
+        "scene": "⚠️ Aceitou um presente de Natal",
+        "effect": "Volte 3 casas",
+        "reference": "2 Coríntios 6:17 (TNM)"
+      },
+      {
+        "scene": "⚠️ Assistiu a um filme violento",
+        "effect": "Volte 2 casas",
+        "reference": "Salmo 101:3 (TNM)"
+      },
+      {
+        "scene": "⚠️ Mentiu para evitar uma situação difícil",
+        "effect": "Volte 4 casas",
+        "reference": "Colossenses 3:9 (TNM)"
+      },
+      {
+        "scene": "⚠️ Não orou ao iniciar o dia",
+        "effect": "Volte 1 casa",
+        "reference": "1 Tessalonicenses 5:17 (TNM)"
+      },
+      {
+        "scene": "⚠️ Faltou à limpeza da Sala do Reino",
+        "effect": "Volte 2 casas",
+        "reference": "1 Coríntios 14:40 (TNM)"
+      },
+      {
+        "scene": "⚠️ Deixou de ajudar um irmão necessitado",
+        "effect": "Volte 3 casas",
+        "reference": "Tiago 2:15-16 (TNM)"
+      },
+      {
+        "scene": "⚠️ Usou roupas imodestas no ministério",
+        "effect": "Volte 2 casas",
+        "reference": "1 Timóteo 2:9 (TNM)"
+      },
+      {
+        "scene": "⚠️ Não revisou a lição da *Sentinela*",
+        "effect": "Volte 1 casa",
+        "reference": "Lucas 8:18 (TNM)"
+      },
+      {
+        "scene": "⚠️ Perdeu a paciência com um morador",
+        "effect": "Volte 3 casas",
+        "reference": "Provérbios 16:32 (TNM)"
+      },
+      {
+        "scene": "⚠️ Aceitou uma bebida alcoólica em excesso",
+        "effect": "Volte 4 casas",
+        "reference": "Provérbios 20:1 (TNM)"
+      },
+      {
+        "scene": "⚠️ Deixou de relatar suas horas de ministério",
+        "effect": "Volte 2 casas",
+        "reference": "2 Coríntios 9:6 (TNM)"
+      },
+      {
+        "scene": "⚠️ Não preparou o coração para o Memorial",
+        "effect": "Volte 3 casas",
+        "reference": "1 Coríntios 11:28 (TNM)"
+      },
+      {
+        "scene": "⚠️ Criticou um ancião da congregação",
+        "effect": "Volte 4 casas",
+        "reference": "1 Timóteo 5:19 (TNM)"
+      }
+    ]
+  }

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root{
+    --background: #fedf82;
+    --background-2: #31393c;
+    --button: #1d2326;
+    --text: #fff;
+}
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", serif;
+}
+
+body{
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.container{
+    width: 90%;
+    max-width: 900px;
+    height: 100vh;
+}
+
+.logo{
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-index{
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-index a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    background-color: var(--button);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+.footer{
+    height: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------Cadastro de Jogadores----------------------------------------------------------*/
+.playerSetup{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-player{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.image-player img{
+    height: 80%;
+    width: 60%;
+    max-width: 400px;
+}
+
+.form-player{
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form{
+    background-color: var(--button);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+
+    border-radius: 8px;
+}
+
+.form input, select{
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    height: 30px;
+}
+
+.form select{
+    margin-bottom: 20px;
+}
+
+.form button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--background-2);
+    border: none;
+    width: 200px;
+    height: 30px;
+    color: var(--text);
+    border-radius: 8px;
+}
+
+.form-player input{
+    margin-top: 20px;
+}
+
+#playerList{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 300px;
+    gap: 5px;
+    background-color: var(--background);
+}
+
+#playerList li{
+    list-style: none;
+    width: 85%;
+    background-color: var(--button);
+    color: var(--text);
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#playerList li p{
+    font-size: 28px;
+}
+
+#playerList li img{
+    width: 62px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+/*------Display do Jogo----------------------------------------------------------*/
+.gamePanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diceContainer{
+    background-color: var(--background-2);
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 30px;
+}
+
+.scene {
+    width: 50px;
+    height: 50px;
+    perspective: 300px; /* Mantém a profundidade menor */
+}
+
+.dice {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 1s ease-in-out;
+}
+
+.diceContainer button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: var(--button);
+    border: none;
+    width: 200px;
+    height: 30px;
+    color: var(--text);
+    border-radius: 8px;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: white;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Posicionamento das faces */
+.front  { transform: translateZ(25px); }
+.back   { transform: rotateY(180deg) translateZ(25px); }
+.right  { transform: rotateY(90deg) translateZ(25px); }
+.left   { transform: rotateY(-90deg) translateZ(25px); }
+.top    { transform: rotateX(90deg) translateZ(25px); }
+.bottom { transform: rotateX(-90deg) translateZ(25px); }
+
+/* Estilização dos pontos */
+.dot {
+    width: 5px;  /* Reduzi o tamanho do ponto */
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* Posições dos pontos */
+.center { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.top-left { top: 15%; left: 15%; }
+.top-right { top: 15%; right: 15%; }
+
+.middle-left { top: 50%; left: 15%; transform: translateY(-50%); }
+.middle-right { top: 50%; right: 15%; transform: translateY(-50%); }
+
+.bottom-left { bottom: 15%; left: 15%; }
+.bottom-right { bottom: 15%; right: 15%; }
+
+
+.challengeContent{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.challenge{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.challenge button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--background-2);
+    border: none;
+    width: 70px;
+    height: 70px;
+    color: var(--text);
+    border-radius: 8px;
+}
+
+#challengeContent{
+    background-color:var(--background-2);
+    margin-top: 25px;
+    border-radius: 8px;
+    padding: 20px;
+    height: 300px;
+    width: 90%;
+    color: var(--text);
+}
+
+.scene-challenge, .challenge-card,.answer, .reference {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    gap: 5px;
+}
+
+#timer{
+    margin-top: 65px;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: var(--background-2);
+}
+
+#playersScore{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-score{
+    margin-top: 10px;
+    width: 83%;
+    border-radius: 8px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: var(--background-2);
+}
+
+.player-score img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.btn-challenge{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    gap: 15px;
+}
+
+.btn-challenge button{
+    background-color: var(--button);
+    border: none;
+    height: 60px;
+    width: 60px;
+    color: var(--text);
+    border-radius: 8px;
+}
+
+#timerDisplay{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

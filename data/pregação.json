@@ -1,0 +1,124 @@
+{
+    "pregação": [
+      {
+        "scene": "Um morador pergunta: 'Por que vocês não comemoram o Natal?'",
+        "challenge": "Explique usando a Bíblia",
+        "answer": "Jesus ordenou a Comemoração de sua morte, não do nascimento (Lucas 22:19-20)",
+        "reference": "Lucas 22:19-20 (TNM)"
+      },
+      {
+        "scene": "Alguém questiona: 'Jesus é Deus?'",
+        "challenge": "Responda com um texto bíblico",
+        "answer": "João 14:28: 'O Pai é maior do que eu'",
+        "reference": "João 14:28 (TNM)"
+      },
+      {
+        "scene": "Um jovem pergunta: 'Por que não usam a cruz?'",
+        "challenge": "Explique o significado bíblico",
+        "answer": "Jesus morreu numa estaca, não numa cruz (Atos 5:30)",
+        "reference": "Atos 5:30 (TNM)"
+      },
+      {
+        "scene": "Um senhor idoso diz: 'Deus não se importa com a gente!'",
+        "challenge": "Dê um exemplo bíblico de cuidado divino",
+        "answer": "Mateus 10:29-31 - Até os pardais são valiosos para Deus",
+        "reference": "Mateus 10:29-31 (TNM)"
+      },
+      {
+        "scene": "Uma mãe pergunta: 'O que a Bíblia diz sobre o inferno?'",
+        "challenge": "Explique usando as Escrituras",
+        "answer": "Eclesiastes 9:5 - 'Os mortos não sabem coisa alguma'",
+        "reference": "Eclesiastes 9:5 (TNM)"
+      },
+      {
+        "scene": "Um adolescente pergunta: 'Por que não comemoram aniversários?'",
+        "challenge": "Cite exemplos bíblicos",
+        "answer": "As únicas festas de aniversário na Bíblia tiveram resultados negativos (Gênesis 40:20-22; Marcos 6:21-28)",
+        "reference": "Gênesis 40:20-22 (TNM)"
+      },
+      {
+        "scene": "Alguém afirma: 'Todas as religiões são boas!'",
+        "challenge": "Responda com princípios bíblicos",
+        "answer": "Mateus 7:13-14 - 'O caminho estreito que conduz à vida'",
+        "reference": "Mateus 7:13-14 (TNM)"
+      },
+      {
+        "scene": "Um estudante pergunta: 'Qual é o nome de Deus?'",
+        "challenge": "Mostre na Bíblia",
+        "answer": "Salmo 83:18 - 'Tu, cujo nome é Jeová'",
+        "reference": "Salmo 83:18 (TNM)"
+      },
+      {
+        "scene": "Uma senhora diz: 'O mundo está perdido, não tem solução!'",
+        "challenge": "Apresente a esperança do Reino",
+        "answer": "Daniel 2:44 - 'O Reino que esmiuçará todos os reinos'",
+        "reference": "Daniel 2:44 (TNM)"
+      },
+      {
+        "scene": "Um homem argumenta: 'A Bíblia foi alterada!'",
+        "challenge": "Defenda a confiabilidade das Escrituras",
+        "answer": "Isaías 40:8 - 'A palavra de Deus permanece para sempre'",
+        "reference": "Isaías 40:8 (TNM)"
+      },
+      {
+        "scene": "Alguém pergunta: 'Por que vocês não servem nas Forças Armadas?'",
+        "challenge": "Use um texto bíblico",
+        "answer": "Isaías 2:4 - 'Transformarão suas espadas em relhas de arado'",
+        "reference": "Isaías 2:4 (TNM)"
+      },
+      {
+        "scene": "Uma jovem questiona: 'Por que não aceitam transfusão de sangue?'",
+        "challenge": "Explique com Atos 15:28-29",
+        "answer": "A Bíblia proíbe o consumo de sangue (Levítico 17:14)",
+        "reference": "Atos 15:28-29 (TNM)"
+      },
+      {
+        "scene": "Um morador pergunta: 'O que é o espírito santo?'",
+        "challenge": "Dê uma explicação bíblica",
+        "answer": "É a força ativa de Deus, não uma pessoa (Gênesis 1:2)",
+        "reference": "Gênesis 1:2 (TNM)"
+      },
+      {
+        "scene": "Alguém diz: 'A Bíblia é só um livro antigo!'",
+        "challenge": "Apresente uma profecia cumprida",
+        "answer": "Daniel 9:25 - Profecia sobre a reconstrução de Jerusalém",
+        "reference": "Daniel 9:25 (TNM)"
+      },
+      {
+        "scene": "Um professor argumenta: 'A evolução explica a vida!'",
+        "challenge": "Responda com Salmo 139:14",
+        "answer": "Salmo 139:14 - 'De modo temível e maravilhoso fui feito'",
+        "reference": "Salmo 139:14 (TNM)"
+      },
+      {
+        "scene": "Uma mãe pergunta: 'Como criar filhos em tempos difíceis?'",
+        "challenge": "Cite princípios bíblicos",
+        "answer": "Provérbios 22:6 - 'Ensina a criança no caminho'",
+        "reference": "Provérbios 22:6 (TNM)"
+      },
+      {
+        "scene": "Um jovem questiona: 'Por que não comemoram o Dia das Bruxas?'",
+        "challenge": "Explique com Deuteronômio 18:10-12",
+        "answer": "Deuteronômio 18:10-12 - Práticas condenadas por Deus",
+        "reference": "Deuteronômio 18:10-12 (TNM)"
+      },
+      {
+        "scene": "Alguém pergunta: 'Por que vocês usam o nome Jeová?'",
+        "challenge": "Mostre em manuscritos antigos",
+        "answer": "Salmos 83:18 aparece em manuscritos hebraicos como YHWH (Jeová)",
+        "reference": "Salmo 83:18 (TNM)"
+      },
+      {
+        "scene": "Um senhor diz: 'O sofrimento prova que Deus não existe!'",
+        "challenge": "Explique o papel de Satanás",
+        "answer": "Jó 1:7-12 - Satanás é o governante deste mundo (2 Coríntios 4:4)",
+        "reference": "Jó 1:7-12 (TNM)"
+      },
+      {
+        "scene": "Uma adolescente pergunta: 'Como saber qual é a religião certa?'",
+        "challenge": "Use João 13:35",
+        "answer": "Identifique os verdadeiros cristãos pelo amor entre eles",
+        "reference": "João 13:35 (TNM)"
+      }
+    ]
+  }
