@@ -1,25 +1,19 @@
 {
   "cotidiano": [
     {
-      "scene": "Um colega oferece drogas na escola/faculdade",
+      "scene": "Você esta na faculdade/escola e um colega oferece drogas",
       "challenge": "Como recusar usando princípios bíblicos?",
       "answer": "1 Coríntios 6:19-20 - 'Glorifiquem a Deus com seu corpo'",
       "reference": "1 Coríntios 6:19-20 (TNM)"
     },
     {
-      "scene": "Seu chefe pede para trabalhar aos domingos",
-      "challenge": "Como manter a integridade cristã?",
-      "answer": "Atos 5:29 - 'Devemos obedecer a Deus como governante'",
-      "reference": "Atos 5:29 (TNM)"
-    },
-    {
-      "scene": "Colegas zombam de sua neutralidade política",
+      "scene": "Colegas zombam de sua neutralidade política, eles pedem para você escolhar um lado politico",
       "challenge": "Como responder com sabedoria?",
       "answer": "João 17:16 - 'Não fazem parte do mundo'",
       "reference": "João 17:16 (TNM)"
     },
     {
-      "scene": "Um amigo convida para um filme com conteúdo violento",
+      "scene": "Um amigo convida para um filme com conteúdo duvidoso",
       "challenge": "Como recusar educadamente?",
       "answer": "Filipenses 4:8 - 'Persistam em considerar coisas... louváveis'",
       "reference": "Filipenses 4:8 (TNM)"
@@ -31,22 +25,10 @@
       "reference": "2 Coríntios 6:17 (TNM)"
     },
     {
-      "scene": "Está sobrecarregado entre trabalho e estudo bíblico",
-      "challenge": "Como priorizar?",
-      "answer": "Mateus 6:33 - 'Persistam em buscar primeiro o Reino'",
-      "reference": "Mateus 6:33 (TNM)"
-    },
-    {
-      "scene": "Um colega pede para mentir em um relatório",
+      "scene": "Um colega pede para mentir em um relatório no trabalho",
       "challenge": "Como recusar?",
       "answer": "Colossenses 3:9 - 'Não mintam uns aos outros'",
       "reference": "Colossenses 3:9 (TNM)"
-    },
-    {
-      "scene": "Um vizinho fofoca sobre outro morador",
-      "challenge": "Como agir?",
-      "answer": "Provérbios 16:28 - 'O difamador separa amigos achegados'",
-      "reference": "Provérbios 16:28 (TNM)"
     },
     {
       "scene": "Um professor pede um trabalho sobre evolução",
@@ -65,12 +47,6 @@
       "challenge": "Como defender sua fé?",
       "answer": "Atos 15:28-29 - 'Abster-se de sangue'",
       "reference": "Atos 15:28-29 (TNM)"
-    },
-    {
-      "scene": "Críticas às Testemunhas de Jeová nas redes sociais",
-      "challenge": "Como responder?",
-      "answer": "1 Pedro 3:15 - 'Defenda sua esperança com brandura'",
-      "reference": "1 Pedro 3:15 (TNM)"
     },
     {
       "scene": "Um colega pede para assinar documento falso",
@@ -103,12 +79,6 @@
       "reference": "Mateus 6:19-20 (TNM)"
     },
     {
-      "scene": "Seu senhorio aumenta o aluguel injustamente",
-      "challenge": "Como negociar?",
-      "answer": "Provérbios 15:1 - 'Resposta branda desvia o furor'",
-      "reference": "Provérbios 15:1 (TNM)"
-    },
-    {
       "scene": "Um amigo oferece cigarros em um momento de estresse",
       "challenge": "Como recusar?",
       "answer": "2 Coríntios 7:1 - 'Purifiquemo-nos de toda contaminação'",
@@ -119,6 +89,54 @@
       "challenge": "Como agir?",
       "answer": "Romanos 12:17 - 'Procedam honestamente perante todos'",
       "reference": "Romanos 12:17 (TNM)"
+    },
+        {
+      "scene": "Seus amigos começam a contar piadas imorais",
+      "challenge": "Como reagir sem ser rude?",
+      "answer": "Efésios 5:3-4 - 'Nenhuma conversa obscena'",
+      "reference": "Efésios 5:3-4 (TNM)"
+    },
+    {
+      "scene": "Você recebe troco a mais em uma compra",
+      "challenge": "O que fazer?",
+      "answer": "Levítico 19:35-36 - 'Não usem medidas falsas'",
+      "reference": "Levítico 19:35-36 (TNM)"
+    },
+    {
+      "scene": "Colegas de trabalho fazem fofoca sobre alguém",
+      "challenge": "Como evitar participar?",
+      "answer": "Provérbios 20:19 - 'Não se associe com quem gosta de fofoca'",
+      "reference": "Provérbios 20:19 (TNM)"
+    },
+    {
+      "scene": "Você é pressionado a participar de uma festa religiosa",
+      "challenge": "Como recusar respeitosamente?",
+      "answer": "Mateus 4:10 - 'Somente a Jeová deve prestar serviço sagrado'",
+      "reference": "Mateus 4:10 (TNM)"
+    },
+    {
+      "scene": "Um parente pede para você guardar segredo sobre algo errado",
+      "challenge": "Como lidar com a situação?",
+      "answer": "Provérbios 12:22 - 'Jeová odeia os lábios mentirosos'",
+      "reference": "Provérbios 12:22 (TNM)"
+    },
+    {
+      "scene": "Colegas insistem para você fazer um brinde em uma festa",
+      "challenge": "Como recusar educadamente?",
+      "answer": "Salmo 16:4 - 'Não derramarei suas ofertas de sangue'",
+      "reference": "Salmo 16:4 (TNM)"
+    },
+    {
+      "scene": "Você recebe uma oferta de trabalho que conflita com sua fé",
+      "challenge": "Como tomar uma decisão sábia?",
+      "answer": "Mateus 6:33 - 'Busquem primeiro o Reino'",
+      "reference": "Mateus 6:33 (TNM)"
+    },
+    {
+      "scene": "Um amigo sugere um relacionamento romântico fora dos padrões bíblicos",
+      "challenge": "Como responder com firmeza e amor?",
+      "answer": "1 Coríntios 6:18 - 'Fujam da imoralidade sexual'",
+      "reference": "1 Coríntios 6:18 (TNM)"
     }
   ]
 }
