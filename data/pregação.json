@@ -119,6 +119,66 @@
         "challenge": "Use João 13:35",
         "answer": "Identifique os verdadeiros cristãos pelo amor entre eles",
         "reference": "João 13:35 (TNM)"
-      }
+      },
+        {
+      "scene": "Alguém pergunta: 'Se Deus é amor, por que existe tanta maldade no mundo?'",
+      "challenge": "Explique o livre-arbítrio e o papel de Satanás",
+      "answer": "1 João 5:19 - 'O mundo inteiro jaz no poder do Maligno'",
+      "reference": "1 João 5:19 (TNM)"
+    },
+    {
+      "scene": "Um morador diz: 'Eu acredito só no que a ciência pode provar!'",
+      "challenge": "Mostre que a fé e a ciência podem coexistir",
+      "answer": "Hebreus 3:4 - 'Toda casa é construída por alguém'",
+      "reference": "Hebreus 3:4 (TNM)"
+    },
+    {
+      "scene": "Uma senhora pergunta: 'Por que o mundo está tão violento?'",
+      "challenge": "Explique que isso é um sinal dos últimos dias",
+      "answer": "2 Timóteo 3:1-5 - 'Nos últimos dias haverá tempos críticos'",
+      "reference": "2 Timóteo 3:1-5 (TNM)"
+    },
+    {
+      "scene": "Um jovem diz: 'Eu rezo todo dia, isso não é suficiente?'",
+      "challenge": "Mostre a importância de conhecer a verdade",
+      "answer": "João 17:3 - 'Isto significa vida eterna, conhecer a Deus'",
+      "reference": "João 17:3 (TNM)"
+    },
+    {
+      "scene": "Um homem pergunta: 'Deus perdoa qualquer pecado?'",
+      "challenge": "Explique o princípio do arrependimento",
+      "answer": "Isaías 1:18 - 'Ainda que seus pecados sejam como escarlate, se tornarão brancos como a neve'",
+      "reference": "Isaías 1:18 (TNM)"
+    },
+    {
+      "scene": "Uma pessoa diz: 'Não preciso da Bíblia, sou uma boa pessoa!'",
+      "challenge": "Explique a importância de seguir os princípios de Deus",
+      "answer": "Jeremias 10:23 - 'Não cabe ao homem dirigir seus próprios passos'",
+      "reference": "Jeremias 10:23 (TNM)"
+    },
+    {
+      "scene": "Um senhor afirma: 'A Bíblia está cheia de contradições!'",
+      "challenge": "Defenda a harmonia das Escrituras",
+      "answer": "2 Timóteo 3:16 - 'Toda a Escritura é inspirada por Deus'",
+      "reference": "2 Timóteo 3:16 (TNM)"
+    },
+    {
+      "scene": "Uma jovem pergunta: 'A Bíblia pode realmente nos ajudar hoje?'",
+      "challenge": "Mostre que os princípios bíblicos são atemporais",
+      "answer": "Salmo 119:105 - 'Tua palavra é lâmpada para meus pés'",
+      "reference": "Salmo 119:105 (TNM)"
+    },
+    {
+      "scene": "Um amigo pergunta: 'Se Deus é bom, por que há desastres naturais?'",
+      "challenge": "Explique o estado atual do mundo",
+      "answer": "Romanos 8:22 - 'Toda criação geme e está com dores'",
+      "reference": "Romanos 8:22 (TNM)"
+    },
+    {
+      "scene": "Alguém diz: 'A Bíblia é só um livro escrito por homens'",
+      "challenge": "Mostre que a Bíblia é inspirada por Deus",
+      "answer": "2 Pedro 1:21 - 'Homens falaram da parte de Deus, movidos pelo espírito santo'",
+      "reference": "2 Pedro 1:21 (TNM)"
+    }
     ]
   }
